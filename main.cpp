@@ -7,8 +7,8 @@ int main() {
     WeatherAnalyzer weather(weatherService); // Inject dependency into WeatherAnalyzer
     WeatherPresenter presenter;
 
-    // Esslingen University - coordinates
-    double latEsslingen = 48.738;
+    // Esslingen University - coordinate
+        double latEsslingen = 48.738;
     double lonEsslingen = 9.311;
 
     weather.getWeatherData(latEsslingen, lonEsslingen);
